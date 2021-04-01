@@ -288,7 +288,7 @@ body {
     transform:translateZ(-1px) scale(2);
     
 }
-.elo{
+.gallery{
     top: -15vh;
     padding: 100vh;
     
@@ -306,6 +306,7 @@ body {
 
 
 .location-tab{
+    border-top: 2px solid gray;
     margin: 0;
     padding: 0;
     background: rgb(49, 49, 49);
