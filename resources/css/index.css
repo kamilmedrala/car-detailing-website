@@ -1,0 +1,328 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+html{
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins';
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: black;
+
+    
+}  
+
+.container{
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes shine{
+    0%
+    {
+        background-position: -200vw;
+        ackground-size: 20vw;
+    }
+    100%
+    {
+        background-position: 8vw;
+        background-size: 200vw;
+    }
+}
+
+@keyframes slideTop{
+    from{
+        top: 100px;
+        padding-top: 20px;
+    }
+    to{
+        top: 0;
+        padding-top: 120px;
+    }
+}
+
+
+  
+
+.container {
+    width: 100%;
+    display: flex;
+    place-content: space-between;
+    background: black;
+    border-bottom: 2px solid gray;
+    position: relative;
+    transform-style: preserve-3d;
+    z-index: 2;
+    
+}
+
+@media screen and (max-width: 768px){
+    .nav li{
+        display: none;
+    }
+
+
+}
+
+.nav{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    list-style-type: none;
+    
+}
+.nav li{
+    
+    position: relative;
+    right: -2px;
+    margin: 0px;
+    padding: 40px 0px;
+    color: rgba(65, 49, 9, 0.808) ;
+    border-left: 1px solid;
+    overflow: hidden;
+}
+
+.nav li a{
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    color: goldenrod ;
+    padding: 40px 40px;
+    
+}
+
+.nav li a::before{
+    content:'';
+    position: absolute;
+    height: 120px;
+    width: 20px;
+    top: -10px;
+    box-shadow: 10px 0 50px  rgba(112, 106, 53, 0.87);
+    background: rgba(112, 106, 53, 0.295);
+    transition: 0.3s;
+    transform: rotate(-10deg) translateX(-120px);
+}
+.nav li a:hover::before{
+    transition: 0.7s;
+    transform: rotate(-10deg) translateX(170px);
+}
+
+ .nav li a:hover{
+    background-color: rgba(255, 217, 0, 0.13);
+    color:gold;
+    
+    transition: 0.7s ease;
+} 
+
+
+
+
+
+
+
+
+
+
+.hero{
+
+    width: 100vw;
+    height: 70vh;
+    align-content: center;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+    
+} 
+.hero::before{
+        
+    animation: fadeIn 2.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+    
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    top: -10vh;
+    left: 0;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8)), url(../images/AutoForum-348.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+    z-index: -1;
+    transform:translateZ(-1px) scale(2);
+}
+
+
+.hero_txt{
+    
+    font-weight: bold;
+    font-size: 60px ;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    padding: 13% 0;
+    overflow: hidden;
+
+    position: relative;
+    background: linear-gradient(90deg,#fff, #fff, rgba(182, 155, 34, 0.521) , rgb(0,0,0,0));
+    background-repeat: no-repeat;
+    background-size: 200vw;
+    background-position: 8vw;
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s linear;
+
+}
+
+
+
+.subtext{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.table-container{
+    
+    animation: slideTop 0.7s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    border-top: 2px solid gray;
+    top: 15vh;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color: white;
+    background: rgb(49, 49, 49);
+    text-align: center;
+    position:relative;
+    z-index: 2;
+
+}
+
+.s2{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1{
+    margin: 0;
+    width: 50%;
+    height: 50vh;
+    background-image: url(../images/cupra2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.description{
+    width: 50%;
+}
+
+.table-container2{
+    
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    top: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color: white;
+    background: rgb(31, 31, 31);
+    text-align: center;
+    position:relative;
+    z-index: 2;
+}
+
+.img2{
+    width: 50%;
+    height: 50vh;
+    background-image: url(../images/home-banner2shor-tylw.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.list{
+    padding-left: 15%;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.list li{
+    text-align: left;
+}
+
+/* .gallery-container{
+    height: 30vh;
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-attachment: absolute;
+    transform-style: preserve-3d;
+    z-index: -2;
+    
+    transform:translateZ(-1px) scale(2);
+    
+}
+.elo{
+    top: -15vh;
+    padding: 100vh;
+    
+    
+    background-image: url(../images/cupra2.jpg);
+    position: relative;
+    transform-style: preserve-3d;
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    filter: blur(10px);
+    z-index: -32;
+
+} */
+
+
+.location-tab{
+    margin: 0;
+    padding: 0;
+    background: rgb(49, 49, 49);
+    
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+.location-tab h1{
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+}
+
+.list2{
+    padding: 0;
+    
+    text-align: center;
+}
