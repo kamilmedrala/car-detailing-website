@@ -9,67 +9,83 @@
 </head>
 <body>
     <!-- navigation -->
-    <header id="navbar">
+    <header class="navbar">
         <div class="container">
             <a href="index.html">
-                <img height="90" src="resources/images/Logo_transparent.png" alt="home banner">
+                <img height="100" class="logo" src="resources/images/Logo_transparent.png" alt="home banner">
             </a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <!-- <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn">
                 <span class="navicon"></span>
-            </label>
+            </label> -->
             <ul class="nav">
                 
                 <li><a href="#">O nas</a></li>
                 <li><a href="#">Usługi</a></li>
                 <li><a href="#">Realizacje</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
 
 
         </div>
     </header>
-    
+     <!-- hero -->
         <div class="hero">
             <div class="hero_txt">
                 PRO SHINE
                 <div class="subtext">
-                    Auto Detailing | Prani | Odpierdzielani
-                </div>
-                
+                    Auto Detailing | Pranie | Ozonowanie  
+                </div>               
+            </div>
+            <div class="scroll_btn">
+                <a href="#About">
+                    <img height="20" src="resources/images/scroll_arrow_btm.png" alt="scroll down">
+                </a>
             </div>
 
 
         </div>
     
+
+     <!-- content -->
     <section>
         <div class="table-container">
           
-            <table class="s2">
-                <tr>
-                    <th class="img1"></th>
-                    <th class="description"> <h1><strong>O NAS</strong></h1> Zajmujymy sie som nw czym jo tu siedza mom klima pija piwko lubia odkurzacze i miec duzo "szmatek"
+            <div class="s2" id="About">
+                
+                    <div class="img1">
+
+                    </div>
+                    <div class="description"> 
+                        <h1><strong>O NAS</strong></h1>
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illum perspiciatis, praesentium mollitia nam expedita nisi eius, odit magni in cupiditate animi quo exercitationem fuga. Obcaecati provident tempora cupiditate quos ipsum sapiente? Nostrum enim corrupti facilis quo fugit consequuntur quod nam laboriosam doloremque, velit iste cumque voluptates fugiat sequi numquam?
                         
-                    </th>
-                </tr>
-            </table>
+                 
+                    </div>
+            </div>
         </div>
     </section>
     <section>
         <div class="table-container2">
-            <table class="s2">
-                <tr>
-                    <th class="description"> <h1><strong>USŁUGI</strong>
-                        <ul class="list">
-                            <li>Wieloetapowe korekty, odświeżanie oraz zabezpieczenie lakieru</li>
-                            <li>Kompleksowe czyszczenie oraz zabezpieczenie wnętrza samochodu</li>
-                            <li>Renowacje reflektorów samochodowych</li>
-                            <li>Mycie pojazdów, przygotowanie aut do sprzedaży</li>
-                            <li>Ozonowanie wnętrz samochodów</li>
-                        </ul>
-                    <th class="img2"></th>
-                </tr>
-            </table>
+            <div class="s2" id="Services">               
+                <div class="description"> <h1><strong>USŁUGI</strong></h1>
+                    <ul class="list">
+                        <li>Wieloetapowe korekty, odświeżanie oraz zabezpieczenie lakieru</li>
+                        <li>Kompleksowe czyszczenie oraz zabezpieczenie wnętrza samochodu</li>
+                        <li>Renowacje reflektorów samochodowych</li>
+                        <li>Mycie pojazdów, przygotowanie aut do sprzedaży</li>
+                        <li>Ozonowanie wnętrz samochodów</li>
+                    </ul>
+                    <div class="btn-container">
+
+                        <a href="#" class="button">Dowiedz się więcej</a>
+                
+                    </div>
+                </div>
+
+                <div class="img2"></div> 
+                               
+            </div>
         </div>
     </section>
 
@@ -80,7 +96,7 @@
     </section>
 
 
-    <section>
+    <section id="contact">
         <div class="location-tab">
             <h1>KONTAKT</h1>
             <p class="list2">NR TEL | FB | ITP SOON HERE</p>
