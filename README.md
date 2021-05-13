@@ -12,7 +12,7 @@ https://kamilmedrala.github.io/car-detailing-website/index.html
 - [x] Google Maps iframe
 - [ ] Realisations gallery
 - [ ] Facebook chat pop-up
-- [ ] Fix Safari header text not showing up
+- [ ] Fix header text not showing up on Safari browser
 
 
   
