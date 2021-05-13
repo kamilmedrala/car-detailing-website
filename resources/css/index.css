@@ -192,7 +192,7 @@ body {
     height: 100vh;
     top: -10vh;
     left: 0;
-    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8)), url(../images/AutoForum-348.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8)), url(../images/main_bckg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -274,16 +274,17 @@ body {
     z-index: 2;
 }
 #About{  
-    background: rgb(49, 49, 49);
+    background: rgb(31, 31, 31);
 }
 
 #Services{   
-    background: rgb(31, 31, 31);
+    background: rgb(20, 20, 20);
 }
 
 .img1{
     margin: 0;
-    background-image: url(../images/cupra2.jpg);
+    
+    background-image:  url(../images/cupra2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -303,7 +304,7 @@ body {
 
 .img2{
     margin: 0;
-    background-image: url(../images/home-banner2shor-tylw.jpg);
+    background-image: url(../images/towel2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -397,7 +398,7 @@ body {
     border-top: 2px solid gray;
     margin: 0;
     padding: 0;
-    background: rgb(49, 49, 49);
+    background: rgb(31, 31, 31);
     
     color: white;
     position: relative;
