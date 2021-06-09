@@ -141,7 +141,7 @@ body {
 .hero {
   width: 100vw;
   height: 85vh;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -170,7 +170,7 @@ body {
 }
 
 .hero_txt {
-  display: inline-block;
+  display: block;
   font-weight: bold;
   font-size: 60px;
   color: rgb(255, 255, 255);
@@ -190,7 +190,7 @@ body {
   background-position: 0vw;
   background-clip: unset;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
   animation: shine 1.5s linear;
 }
 
