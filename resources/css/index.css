@@ -143,8 +143,8 @@ body {
   height: 85vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  /* align-items: center; */
+  justify-content: space-between;
+  align-items: center;
   box-sizing: border-box;
   transform-style: preserve-3d;
 }
@@ -170,16 +170,12 @@ body {
 }
 
 .hero_txt {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 70vh;
+  display: inline-block;
   font-weight: bold;
   font-size: 60px;
   color: rgb(255, 255, 255);
-  /* align-self: center; */
   text-align: center;
-  padding: 0;
+  padding: 30vh 0;
   overflow: hidden;
   position: relative;
   background: linear-gradient(
@@ -193,7 +189,7 @@ body {
   background-size: 200vw;
   background-position: 0vw;
   background-clip: unset;
-/*   -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 1.5s linear;
 }
