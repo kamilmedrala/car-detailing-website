@@ -61,7 +61,7 @@ body {
     top: 15vh;
   }
   to {
-    top: -3vh;
+    top: -10vh;
   }
 }
 
@@ -144,10 +144,10 @@ body {
 .hero {
   width: 100vw;
   height: 85vh;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  /* flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   box-sizing: border-box;
   transform-style: preserve-3d;
 }
@@ -173,12 +173,11 @@ body {
 }
 
 .hero_txt {
-  display: inline;
+  display: block;
   font-weight: bold;
   font-size: 60px;
-  /* color: rgb(255, 255, 255); */
   text-align: center;
-  padding: 30vh 0;
+  padding: 25vh 0;
   overflow: hidden;
   position: relative;
   background: linear-gradient(
@@ -194,10 +193,11 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  animation: shine 1.7s linear;
+  animation: shine 1.3s linear;
 }
 
 .subtext {
+  display: inline;
   font-weight: bold;
   font-size: 30px;
 }
