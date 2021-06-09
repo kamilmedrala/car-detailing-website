@@ -141,7 +141,7 @@ body {
 .hero {
   width: 100vw;
   height: 85vh;
-  display: block;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
