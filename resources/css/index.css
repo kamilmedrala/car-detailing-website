@@ -197,7 +197,7 @@ body {
 }
 
 .subtext {
-  display: inline;
+  display: inline-block;
   font-weight: bold;
   font-size: 30px;
 }
