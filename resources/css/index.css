@@ -193,7 +193,7 @@ body {
   background-size: 200vw;
   background-position: 0vw;
   background-clip: unset;
-  -webkit-background-clip: text;
+/*   -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   animation: shine 1.5s linear;
 }
