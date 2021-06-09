@@ -188,7 +188,7 @@ body {
   background-repeat: no-repeat;
   background-size: 200vw;
   background-position: 0vw;
-/*   background-clip: unset; */
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   animation: shine 1.5s linear;
